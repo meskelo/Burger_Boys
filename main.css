@@ -1,1 +1,240 @@
+.bells {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 3.5vw;
+  color: #9a351a;
+   text-shadow: 5px 2px 2px #ffffff;
+  position: absolute;
+  display: block;
+  left: 42%;
+  top: 0%;
+  height: 30%;
+  
+  
+}
 
+.drive {
+   text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 3.5vw;
+  color: #9a351a;
+   text-shadow: 5px 2px 2px #ffffff;
+  position: absolute;
+  left: 37%;
+  top: 15%;
+  display: block;
+}
+
+.bun1 {
+  height: 35%;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #fbb300;
+}
+
+.tomato {
+   height: 37%;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  top: 16%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #e63c14;
+}
+
+.lettuce{
+  height: 37%;
+  width: 31%;
+  border-radius: 50%;
+  position: absolute;
+  left: 34.8%;
+  top: 18%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #618a00;
+}
+
+.cheese {
+  width: 30.5%;
+  height: 20%;
+  background: #f3e416;
+  left: 35%;
+  top: 35%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+}
+
+.burger {
+  height: 38%;
+  width: 32%;
+  border-radius: 50%;
+  position: absolute;
+  left: 34.2%;
+  top: 23%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #452112;
+}
+
+.bun2 {
+  height: 35%;
+  width: 30%;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  top: 32%;
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  background-color: #fbb300;
+}
+
+ul {
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fbb300;
+  top: 0%;
+  height: 10%;
+  width: 100%;
+     position: absolute;
+   display: block;
+}
+
+li {
+  float: left;
+  width: 15%;
+  left: 5%;
+}
+
+li a {
+  display: table;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  padding: 7% 70%;
+  color: #9a351a;
+  width: 3%;
+ 
+}
+
+li a:hover {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+body {
+background-image: linear-gradient(45deg, red 25%, transparent 25%), linear-gradient(-45deg, red 25%, transparent 25%), linear-gradient(45deg, transparent 75%, red 75%), linear-gradient(-45deg, transparent 75%, red 75%);
+background-size: 6vw 6vw;
+background-position: 0 0, 0 14.98vw, 14.98vw -14.98vw, -14.98vw 0;
+background-color: white;
+width: 10%;
+padding-bottom: 40%;
+top: 10%; 
+ 
+}
+
+.base {
+   width: 100%;
+  height: 20%;
+  background: #d8d8d8;
+  top: 80%; 
+  position: absolute;
+  text-align: center;
+  font-size: 0.9vw;
+  z-index: -3;
+  
+}
+
+
+.pillar1 {
+  width: 7%;
+  height: 180%;
+  background: #2bc6ff;
+  z-index: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+  left: 0%;
+  top: 10%;
+}
+
+.pillar2 {
+  width: 7%;
+  height: 180%;
+  background: #2bc6ff;
+  z-index: 0;
+  right: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  position: absolute;
+  top: 10%;
+}
+
+.pt1 {
+background-image: linear-gradient(to right top, #2bc6ff 0%, #2bc6ff 50%, transparent 50%);
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  top: 0;
+  left: 0;
+}
+
+.pt2 {
+background-image: linear-gradient(to left top, #2bc6ff 0%, #2bc6ff 50%, transparent 50%);
+  position: absolute;
+  width: 7%;
+  height: 10%;
+  top: 0;
+  right: 0;
+}
+
+.img {
+  top: 105%;
+   position: absolute;
+   display: block;
+  left: 10%;
+  width: 77%;
+  height: 20%;
+  background-color: #6fe278;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-bottom: 12%;
+
+}
+
+
+  
+ .base5 {
+  left: 0%;
+   width: 100%;
+  height: 40%;
+  background: #d8d8d8;
+  top: 180%; 
+  position: absolute;
+  text-align: center;
+  display: block;
+   padding-top: 0%;
+  font-size: 2vw;
+}
